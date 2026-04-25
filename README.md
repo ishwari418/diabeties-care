@@ -1,33 +1,33 @@
-# AI Diabetic Companion 🩺🤖
+# AI Diabetic Companion 
 
 AI Diabetic Companion is a production-ready web application designed to help users manage diabetes using **Machine Learning** and **Rule-Based Intelligence**. It provides food safety analysis, diabetes risk prediction with explainable AI, and personalized health recommendations.
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
-### 1. 🍎 Smart Food Scanner
+### 1.  Smart Food Scanner
 *   **Image Recognition**: Identify food items using a pre-trained **MobileNetV2** CNN.
 *   **Nutrition Data**: Real-time integration with the **USDA FoodData Central API**.
 *   **Risk Scoring**: A rule-based engine that calculates safety levels based on sugar, carbs, and glycemic impact.
 
-### 2. 📉 Diabetes Risk Predictor
+### 2.  Diabetes Risk Predictor
 *   **ML Assessment**: Uses an **XGBoost** model to predict diabetes risk probability.
 *   **Explainable AI (SHAP)**: Visualizes exactly how your health metrics (BMI, Glucose, Age, etc.) contribute to your risk.
 *   **Logic-Driven Insights**: Provides clear, text-based explanations of the prediction.
 
-### 3. 📋 Personalized Recommendations
+### 3.  Personalized Recommendations
 *   **Dietary Advice**: Suggestions based on food scan results and risk profiles.
 *   **Exercise Plans**: Activity routines tailored to your BMI and risk category.
 *   **Healthy Alternatives**: Intelligent food swaps (e.g., swapping white rice for brown rice).
 
-### 4. 📊 Health Dashboard
+### 4.  Health Dashboard
 *   **Activity Tracking**: Summary of recent scans and risk predictions.
 *   **Risk Trends**: Interactive charts showing your health progress over time.
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 **Frontend:**
 *   **React** (Vite)
@@ -45,7 +45,7 @@ AI Diabetic Companion is a production-ready web application designed to help use
 
 ---
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 *   Python 3.10+
@@ -81,7 +81,7 @@ npm.cmd run dev
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```text
 Diabetics/
 ├── backend/
@@ -102,7 +102,7 @@ Diabetics/
 
 ---
 
-## 🔐 Configuration
+##  Configuration
 Ensure you have your USDA API key set in `backend/nutrition_api.py`:
 ```python
 USDA_API_KEY = "YOUR_KEY_HERE"
@@ -110,10 +110,10 @@ USDA_API_KEY = "YOUR_KEY_HERE"
 
 ---
 
-## 📄 License
+##  License
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 *This application is for educational and informational purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician.*
