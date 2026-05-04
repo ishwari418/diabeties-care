@@ -1,6 +1,6 @@
 # AI Diabetic Companion 
 
-AI Diabetic Companion is a production-ready web application designed to help users manage diabetes using **Machine Learning** and **Rule-Based Intelligence**. It provides food safety analysis, diabetes risk prediction with explainable AI, and personalized health recommendations.
+AI Diabetic Companion is a production-ready web application designed to help users manage diabetes using **Machine Learning** and **Rule-Based Intelligence**. It provides food safety analysis, diabetes risk prediction with explainable AI, and personalized health recommendations
 
 ---
 
